@@ -1,11 +1,36 @@
 {
-  "cursos": [{
+  "cursos": [
+    {
       "id": 1,
       "nome": "Angular"
     },
     {
       "id": 2,
       "nome": "Java"
+    },
+    {
+      "nome": "Angular Material",
+      "id": 3
+    },
+    {
+      "nome": "Angular Material 1",
+      "id": 4
+    },
+    {
+      "nome": "Angular Material 3",
+      "id": 5
+    },
+    {
+      "nome": "Angular Material 4",
+      "id": 6
+    },
+    {
+      "nome": "Angular Material 5",
+      "id": 7
+    },
+    {
+      "nome": "Angular Material 6",
+      "id": 8
     }
   ]
 }
