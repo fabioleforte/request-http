@@ -1,0 +1,20 @@
+<form class="needs-validation" novalidate [formGroup]="form" style="margin-top: 10px;">
+  <div class="form-row">
+    <div class="col-sm-12">
+      <label for="nome">Nome do Curso</label>
+      <input type="text" class="form-control" id="nome" placeholder="Nome do Curso" formControlName="nome" [ngClass]="{'is-invalid': submitted && form.get('nome').error}" />
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 10px">
+    <button type="submit" class="btn btn-primary" (click)="onSumit()">
+      Salvar
+    </button>
+    <button type="button" class="btn btn-default" (click)="onCancel()">
+      Cancelar
+    </button>
+  </div>
+
+</form>
